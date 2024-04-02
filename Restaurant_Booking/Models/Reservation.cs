@@ -16,7 +16,9 @@ namespace Restaurant_Booking.Models
         public int Restaurant_Id { get; set; }
 
         public int NoOfTables {  get; set; }
+
         public int Customer_Id { get; set; }
+
 
 
     }

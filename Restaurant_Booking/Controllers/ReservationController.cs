@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Restaurant_Booking.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[Action]")]
     [ApiController]
     public class ReservationController : ControllerBase
     {
@@ -82,7 +82,21 @@ namespace Restaurant_Booking.Controllers
 
         //}
 
+        [HttpPost]
+        public ActionResult Findorderhistory([FromBody] FindUser customer)
+        {
+            var Customer= _context.Reservation.Where(s => s.Customer_Id == customer.Customer_Id);
 
+            if (Customer == null)
+            {
+                return Ok("Not the data");
+            }
+
+            else
+            {
+                return Ok(Customer);
+            }
+        }
 
         [HttpPost]
         public ActionResult<Reservation> BookReservation([FromBody] Booking Booking)

@@ -11,8 +11,8 @@ using Restaurant_Booking.Data;
 namespace Restaurant_Booking.Migrations
 {
     [DbContext(typeof(Restaurant_BookingDbContext))]
-    [Migration("20240331034704_initial")]
-    partial class initial
+    [Migration("20240402035338_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

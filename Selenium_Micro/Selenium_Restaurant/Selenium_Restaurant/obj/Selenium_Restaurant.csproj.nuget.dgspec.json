@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj": {}
+    "D:\\Micro\\Restaurant_Booking\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj": {}
   },
   "projects": {
-    "D:\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj": {
+    "D:\\Micro\\Restaurant_Booking\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj",
+        "projectUniqueName": "D:\\Micro\\Restaurant_Booking\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj",
         "projectName": "Selenium_Restaurant",
-        "projectPath": "D:\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj",
+        "projectPath": "D:\\Micro\\Restaurant_Booking\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\Selenium_Restaurant.csproj",
         "packagesPath": "C:\\Users\\karnisha.k\\.nuget\\packages\\",
-        "outputPath": "D:\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\obj\\",
+        "outputPath": "D:\\Micro\\Restaurant_Booking\\Selenium_Micro\\Selenium_Restaurant\\Selenium_Restaurant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
